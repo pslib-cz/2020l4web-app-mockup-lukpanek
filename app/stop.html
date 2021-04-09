@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Přihlášení</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+</head>
+<body onload="initMap();">
+<div class="page" id="home">
+    <div id="map"></div>
+    <nav class="main-nav">
+        <div class="icons">
+
+        </div>
+        <a href="#" class="tran-button">
+            <p class="icon"></p>
+        </a>
+    </nav>
+
+    <div class="tran-drawer drawer">
+        <div class="title">
+            <h1>Zastávka Fugnerova</h1>
+            <p>Nenacházíte se na této zastávce?</p>
+        </div>
+
+        <p class="section">Spoje z této zastávky</p>
+        <div class="links">
+            <a href="connection.html" class="link">
+                <p class="tag bus">12</p>
+                <p class="destination">Nádraží</p>
+                <p class="stand">1</p>
+                <p class="time">2 min</p>
+            </a>
+
+            <a href="connection.html" class="link">
+                <p class="tag tram">1562</p>
+                <p class="destination">Na Křížku</p>
+                <p class="stand">5</p>
+                <p class="time">4 min</p>
+            </a>
+
+            <a href="connection.html" class="link">
+                <p class="tag train">156</p>
+                <p class="destination">Šaldovo náměstí</p>
+                <p class="stand">2</p>
+                <p class="time">6 min</p>
+            </a>
+            <a href="connection.html" class="link">
+                <p class="tag trolley">11</p>
+                <p class="destination">Nádraží</p>
+                <p class="stand">7</p>
+                <p class="time">8 min</p>
+            </a>
+            <a href="connection.html" class="link">
+                <p class="tag bus">17</p>
+                <p class="destination">Zastávka dlouhá</p>
+                <p class="stand">5</p>
+                <p class="time">10 min</p>
+            </a>
+
+        </div>
+
+        <p class="section">Další linky</p>
+
+        <div class="other-links">
+            <p class="tag train">156</p>
+            <p class="tag bus">25</p>
+            <p class="tag train">356</p>
+            <p class="tag tram">3</p>
+            <p class="tag train">5745354</p>
+            <p class="tag bus">53</p>
+            <p class="tag trolley">78</p>
+            <p class="tag tram">246</p>
+            <p class="tag train">6</p>
+            <p class="tag bus">11</p>
+            <p class="tag trolley">21</p>
+            <p class="tag tram">65</p>
+            <p class="tag train">3496</p>
+            <p class="tag bus">35</p>
+            <p class="tag tram">156</p>
+        </div>
+    </div>
+</div>
+
+<script src="assets/main.js"></script>
+</body>
+</html>
